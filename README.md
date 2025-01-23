@@ -81,6 +81,8 @@ Example:
 ```
 After selecting a directory, the terminal will navigate to it automatically.
 
+![cdpdemo.gif](cdpdemo.gif)
+
 ### Customization
 
 You can customize the appearance and behavior of the `pwp` plugin by modifying the `pwp.plugin.zsh` file 
