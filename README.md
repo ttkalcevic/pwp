@@ -97,4 +97,10 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ---
 This plugin is an enhanced version of a bash function created earlier. 
-Read more on [Medium - Bash and Directory Positioning](https://medium.com/@ttkalcevic/bash-and-directory-positioning-34ab8a8b1c0d).
+Read more:
+
+[Medium: Bash and Directory Positioning](https://medium.com/@ttkalcevic/bash-and-directory-positioning-34ab8a8b1c0d)
+
+[Medium: Navigate Your Terminal Like a Pro with the pwp Oh My Zsh Plugin](https://ttkalcevic.medium.com/pwp-easy-terminal-directory-navigation-7e6ecb5202e7)
+
+[Medium: Introducing cdp – interactive directory selection for your terminal](https://ttkalcevic.medium.com/introducing-cdp-interactive-directory-selection-for-your-terminal-40f45998ee70)
