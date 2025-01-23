@@ -21,4 +21,19 @@ function pwp {
 function cd_up() {
   cd $(printf "%0.s../" $(seq 1 $1 ));
 }
+
 alias ..='cd_up'
+
+## interactive directory selection using pwp
+function cdp() {
+    local parents=()
+    while IFS= read -r line; do
+        parents+=("$line")
+    done < <(pwp | awk -F': ' '/[0-9]+:/ {print $2}')
+
+    local selected=$(printf "%s\n" "${parents[@]}" | fzf --reverse --prompt="Select directory > ")
+
+    if [[ -n "$selected" ]]; then
+        cd "$selected" || echo "Failed to change directory to $selected"
+    fi
+}
